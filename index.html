@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="img/icons8-car-40.png"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="container">
+        <a href="#" class="logo">
+          <img src="img/Frame.png" alt="Car rental logo" />
+          <p>RENT CARS</p>
+        </a>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#choose">Why choose us</a></li>
+          <li><a href="#models">Models</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <!-- Nav Icons -->
+        <div class="nav-icons">
+          <a href="#"><i class="bx bx-user user-icon"></i></a>
+        <!-- Menu Icon -->
+        <div class="menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </div>
+    <section class="hero" id="home">
+      <div class="hero-content container">
+        <div class="hero-text">
+          <h1>Find, book, and <br />rent a car <span>Easily</span></h1>
+          <p>
+            Get a car wherever and whenever you need it with your iOS and
+            Android device.
+          </p>
+          <div class="app-buttons">
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
+                alt="Download on Google Play"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on App Store"
+            /></a>
+          </div>
+        </div>
+        <img src="img/Group.png" alt="" class="hero-back-img" />
+        <div class="hero-image">
+          <img src="img/Car.png" alt="Car available for rent" />
+        </div>
+      </div>
+      <div class="search-bar container">
+        <div class="search-container">
+          <div class="search-item">
+            <label for="location">Location</label>
+            <input
+              type="search"
+              id="location"
+              placeholder="Search your location"
+            />
+          </div>
+          <div class="search-item">
+            <label for="pickup">Pickup date</label>
+            <input type="date" id="pickup" placeholder="Tue 15 Feb, 09:00" />
+          </div>
+          <div class="search-item">
+            <label for="return">Return date</label>
+            <input type="date" id="return" placeholder="Thu 16 Feb, 11:00" />
+          </div>
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works container" id="works">
+      <div class="section-title">
+        <button class="how-it-works-btn">HOW IT WORKS</button>
+        <h2>Rent with following 3 working steps</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <img
+            src="img/location-tick.png"
+            alt="Choose Location Icon"
+            class="step-icon"
+          />
+          <h3>Choose location</h3>
+          <p>Choose your and find your best car</p>
+        </div>
+        <div class="step">
+          <img
+            src="img/calendar.png"
+            alt="Pick-up Date Icon"
+            class="step-icon"
+          />
+          <h3>Pick-up date</h3>
+          <p>Select your pick-up date and time to book your car</p>
+        </div>
+        <div class="step">
+          <img src="img/smallcar.png" alt="Book Car Icon" class="step-icon" />
+          <h3>Book your car</h3>
+          <p>Book your car and we will deliver it directly to you</p>
+        </div>
+      </div>
+    </section>
+    <div class="logo-carousel">
+      <div class="logo-scroll">
+        <img src="img/Nissan.png" alt="Nissan Logo" />
+        <img src="img/Honda.png" alt="Honda Logo" />
+        <img src="img/Audi.png" alt="Audi Logo" />
+        <img src="img/Acura.png" alt="Acura Logo" />
+        <img src="img/Jaguar.png" alt="Jaguar Logo" />
+        <img src="img/Volvo.png" alt="Volvo Logo" />
+        <img src="img/Merc.png" alt="Mercedes Logo" />
+
+        <img src="img/Nissan.png" alt="Nissan Logo" />
+        <img src="img/Honda.png" alt="Honda Logo" />
+        <img src="img/Audi.png" alt="Audi Logo" />
+        <img src="img/Acura.png" alt="Acura Logo" />
+        <img src="img/Jaguar.png" alt="Jaguar Logo" />
+        <img src="img/Volvo.png" alt="Volvo Logo" />
+        <img src="img/Merc.png" alt="Mercedes Logo" />
+      </div>
+    </div>
+    <section class="why-choose-us container" id="choose">
+      <div class="why-choose-us-content">
+        <!-- Car Image Column -->
+        <div class="audi-image">
+          <img src="img/Audi 1.png" alt="Audi Car Image" />
+          <img src="img/Vector.png" alt="" class="triangle-background" />
+        </div>
+        <!-- Benefits Column -->
+        <div class="benefits">
+          <button class="why-choose-us-btn">WHY CHOOSE US</button>
+          <h2>We offer the best experience with our rental deals</h2>
+          <div class="benefit">
+            <div class="benefit-icon">💲</div>
+            <div class="benefit-text">
+              <h3>Best price guaranteed</h3>
+              <p>
+                Find a lower price? We’ll refund you 100% of the difference.
+              </p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon">👤</div>
+            <div class="benefit-text">
+              <h3>Experienced driver</h3>
+              <p>
+                Don’t have a driver? Don’t worry, we have experienced drivers
+                for you.
+              </p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon">⏰</div>
+            <div class="benefit-text">
+              <h3>24-hour car delivery</h3>
+              <p>
+                Book your car anytime, and we will deliver it directly to you.
+              </p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon">💬</div>
+            <div class="benefit-text">
+              <h3>24/7 technical support</h3>
+              <p>
+                Have a question? Contact Rentcars support anytime when you have
+                a problem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rental-fleet container" id="models">
+      <h2>Our Rental Fleet</h2>
+      <p>
+        Experience ultimate luxury and performance with our exclusive fleet of
+        leading car brands such as Porsche, Audi and more.
+      </p>
+      <div class="car-buttons">
+        <button class="car-button" data-car="nissan">Nissan GTR</button>
+        <button class="car-button" data-car="audi">Audi RS3</button>
+        <button class="car-button" data-car="porsche">Porsche 911</button>
+        <button class="car-button" data-car="bmw">BMW M2</button>
+        <button class="car-button" data-car="mercedes">Mercedes C Class</button>
+      </div>
+      <div class="car-details">
+        <div class="car-image">
+          <img src="img/nissanfleet.png" alt="Car Image" id="car-image" />
+        </div>
+        <div class="car-info">
+          <h3 id="car-price">$120.00 <span>rent per day</span></h3>
+          <ul>
+            <li>
+              <i class="bx bx-car"></i> Model:&nbsp;
+              <span id="car-model">Hatchback</span>
+            </li>
+            <li>
+              <i class="bx bx-door-open"></i> Doors:&nbsp;
+              <span id="car-doors">4</span>
+            </li>
+            <li>
+              <i class="bx bx-chair"></i> Seats:&nbsp;
+              <span id="car-seats">5</span>
+            </li>
+            <li>
+              <i class="bx bxs-cog"></i> Transmission:&nbsp;
+              <span id="car-transmission">Automatic</span>
+            </li>
+          </ul>
+          <button class="book-button">Book Ride</button>
+        </div>
+      </div>
+    </section>
+    <section class="stories-section" id="blog">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Stories Behind the Wheel</h2>
+        </div>
+        <div class="stories-container">
+          <!-- Story Card 1 -->
+          <div class="story-card">
+            <div class="story-date">
+              <span class="date-day">7</span>
+              <div class="date-details">
+                <span>January</span>
+                <span>2024</span>
+              </div>
+            </div>
+            <h3 class="story-title">Adventures on the Open Road</h3>
+            <p class="story-description">Join us as we dive into the exhilarating stories of travelers who embarked on unforgettable journeys with Avento.</p>
+            <img src="img/story1.jpg" alt="Adventure on the Open Road">
+          </div>
+    
+          <!-- Story Card 2 -->
+          <div class="story-card">
+            <div class="story-date">
+              <span class="date-day">13</span>
+              <div class="date-details">
+                <span>March</span>
+                <span>2024</span>
+              </div>
+            </div>
+            <h3 class="story-title">Luxury and Comfort: Experiences</h3>
+            <p class="story-description">In this series, we highlight the luxurious touches, unparalleled comfort, and exceptional service that make every ride.</p>
+            <img src="img/story2.jpg" alt="Luxury and Comfort">
+          </div>
+    
+          <!-- Story Card 3 -->
+          <div class="story-card">
+            <div class="story-date">
+              <span class="date-day">22</span>
+              <div class="date-details">
+                <span>July</span>
+                <span>2024</span>
+              </div>
+            </div>
+            <h3 class="story-title">Cars That Adapt to Your Lifestyle</h3>
+            <p class="story-description">Read about how our versatile vehicles have seamlessly integrated into the lives of professionals and families alike.</p>
+            <img src="img/story3.jpg" alt="Cars for Your Lifestyle">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section container" id="faq">
+      <h2>FAQ</h2>
+      <p>Frequently Asked Questions</p>
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <button class="faq-question active">
+          <span>1. What is integrated in the contract?</span>
+          <i class="faq-icon">&#9650;</i>
+        </button>
+        <div class="faq-answer show">
+          <p>
+            You will find all the necessary information in the contract. Click
+            here to download the contract. If you have any question, let us know
+            and we are happy to help you.
+          </p>
+        </div>
+      </div>
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>2. Do you have roadside assistance service?</span>
+          <i class="faq-icon">&#9660;</i>
+        </button>
+        <div class="faq-answer">
+          <p>
+            In the event of an emergency, accident or vehicle breakdown during
+            the rental, you can contact our 24-hour roadside assistance service
+            every day by calling the toll-free number
+          </p>
+        </div>
+      </div>
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>3. How to return the vehicle?</span>
+          <i class="faq-icon">&#9660;</i>
+        </button>
+        <div class="faq-answer">
+          <p>
+            The vehicle must be returned in the same condition in which it was
+            delivered. Therefore, the renter undertakes to return the vehicle
+            clean and with the same level of fuel.
+          </p>
+        </div>
+      </div>
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>3. Is a car rental deposit required?</span>
+          <i class="faq-icon">&#9660;</i>
+        </button>
+        <div class="faq-answer">
+          <p>
+            Yes, a deposit is required to rent a car from us. The deposit amount
+            varies by location. To find out how much a deposit would be for your
+            trip, contact us.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          <span
+            >4. What are the driving license requirements for car hire?</span
+          >
+          <i class="faq-icon">&#9660;</i>
+        </button>
+        <div class="faq-answer">
+          <p>
+            All drivers must produce a full, valid driving licence. Non-EU
+            licence holders are required to have an international driving permit
+            if the licence is not in English. All renters must produce
+            photographic ID - this can be a passport or driving licence. Learn
+            more about car hire driving licence requirements here.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials" id="client">
+      <div class="testimonials-header container">
+        <h3>Testimonials</h3>
+        <h2>What people say about us?</h2>
+        <p>
+          Here's what our clients have to say about their experience with us. 
+        </p>
+      </div>
+      <!-- Swiper Container for Testimonials Slider -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Testimonial Slide 1 -->
+          <div class="swiper-slide testimonial-card">
+            <blockquote>
+              <p>
+                I had an excellent experience with Rent Cars! The customer service was friendly and professional, and the whole process was smooth from start to finish. My rental car was spotless and ran perfectly during my entire trip. I highly recommend Rent Cars to anyone looking for a hassle-free rental experience!
+              </p>
+            </blockquote>
+            <div class="testimonial-info">
+              <img src="img/clarkson3.png" alt="Kimberly Garcia" />
+              <div>
+                <h4>Clarkson</h4>
+                <small>Birmingham</small>
+              </div>
+              <i class="quote-icon">&#8221;</i>
+            </div>
+          </div>
+
+          <!-- Testimonial Slide 2 -->
+          <div class="swiper-slide testimonial-card">
+            <blockquote>
+              <p>
+                Rent Cars made my travel experience seamless and stress-free! Booking was straightforward, and I appreciated the variety of vehicles available to choose from. My car was ready on time, clean, and in great condition. I’ll definitely be using Rent Cars for all my future trips!
+              </p>
+            </blockquote>
+            <div class="testimonial-info">
+              <img src="img/clarkson.png" alt="John Smith" />
+              <div>
+                <h4>Jeremy</h4>
+                <small>Manchester</small>
+              </div>
+              <i class="quote-icon">&#8221;</i>
+            </div>
+          </div>
+
+          <!-- Testimonial Slide 3 -->
+          <div class="swiper-slide testimonial-card">
+            <blockquote>
+              <p>
+                “Rent Cars exceeded my expectations in every way. The booking process was quick and transparent, with no surprise fees at checkout. The car was in top shape, and returning it was just as easy as picking it up. I’ll definitely be renting from them again on my next vacation!
+              </p>
+            </blockquote>
+            <div class="testimonial-info">
+              <img src="img/clarkson2.png" alt="John Smith" />
+              <div>
+                <h4>Jezza</h4>
+                <small>London</small>
+              </div>
+              <i class="quote-icon">&#8221;</i>
+            </div>
+          </div>
+
+          <!-- Testimonial Slide 2 -->
+          <div class="swiper-slide testimonial-card">
+            <blockquote>
+              <p>
+                Rent Cars provided an outstanding rental experience from start to finish. The website was easy to navigate, and I quickly found a car that fit my needs and budget. The vehicle was spotless and drove smoothly, making my trip that much more enjoyable. I’ll absolutely be using Rent Cars again for future travels!
+              </p>
+            </blockquote>
+            <div class="testimonial-info">
+              <img src="img/clarkson.png" alt="John Smith" />
+              <div>
+                <h4>Jeremy</h4>
+                <small>Manchester</small>
+              </div>
+              <i class="quote-icon">&#8221;</i>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination controls -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Download Section -->
+    <section class="download-section container" id="contact">
+      <img src="img/Vector.png" alt="" class="download-back" />
+      <div class="download-content">
+        <h2>
+          Download Rentcars <br />
+          App for <span class="highlight">FREE</span>
+        </h2>
+        <p>For faster, easier booking and exclusive deals.</p>
+        <div class="app-icons">
+          <a href="#"
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
+              alt="Download on Google Play"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+              alt="Download on App Store"
+          /></a>
+        </div>
+      </div>
+      <div class="download-image">
+        <img src="img/carphone.png" alt="Car on mobile screen" />
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="footer-column">
+          <h4>RENTCARS</h4>
+          <p>
+            66, Glendale Rd,<br />
+            London, United Kingdom
+          </p>
+          <p>📞 +44 123 456 789</p>
+          <p>📧 rentcars@gmail.com</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Our Product</h4>
+          <p><a href="#">Career</a></p>
+          <p><a href="#">Car</a></p>
+          <p><a href="#">Packages</a></p>
+          <p><a href="#">Features</a></p>
+          <p><a href="#">Priceline</a></p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <p><a href="#">Download</a></p>
+          <p><a href="#">Help Centre</a></p>
+          <p><a href="#">Guides</a></p>
+          <p><a href="#">Partner Network</a></p>
+          <p><a href="#">Cruises</a></p>
+        </div>
+
+        <div class="footer-column">
+          <h4>About Rentcars</h4>
+          <p><a href="#">Why choose us</a></p>
+          <p><a href="#">Our Story</a></p>
+          <p><a href="#">Investor Relations</a></p>
+          <p><a href="#">Press Center</a></p>
+          <p><a href="#">Advertise</a></p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Rentcars, All Rights Reserved</p>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
