@@ -5,7 +5,7 @@ This is my personal project based on a car rental design on **`Figma`**.
 I felt this would provide valuable experience using Figma and would mirror how professional developers operate using UI/UX designs.
 
 <br/>This was based on a Figma design from Truong Huy.
-<br/>Figma Design: (https://www.figma.com/design/c9RdyLpBnxBgnDRFnf1Uo1/Rent-Car---Landing-page-(Community)?node-id=2205-176&node-type=frame&t=0c2Q7KCIESEyEhK3-0)
+<br/>Figma Design: (https://www.figma.com/design/c9RdyLpBnxBgnDRFnf1Uo1/Rent-Car---Landing-page-(Community)?node-id=12-16330&node-type=frame&t=QLxbms70RJWu3HvR-0)
 
 ### Screenshot
 ![](./submission.png)
